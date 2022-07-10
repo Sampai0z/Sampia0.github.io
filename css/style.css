@@ -1,0 +1,62 @@
+html{
+    background-image: url("../imagens/life.jpg");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+body{
+    color: black;
+    font-size: 30px bold;
+    font-family: sans-serif;
+
+}
+.imagem{
+    border-radius: 100%;
+    border:solid 2px #fff;
+    box-shadow: 6px 10px 20px 5px rgb(42, 40, 40);
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.61);
+    max-width: 5em;
+    padding: 4px;
+    border-radius: 10em;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: center;
+    padding: 20px;
+    max-width: 20em;
+    background-color: #fffa;
+    backdrop-filter: blur(20px) saturate(260%) contrast (180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+}
+
+li{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+ul:hover{
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    list-style: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: center;
+    padding: 20px;
+    max-width: 20em;
+    background-color: rgba(255, 255, 255, 0.579);
+    backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+}
